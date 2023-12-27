@@ -96,11 +96,11 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  GestureDetector(
-                    onTap: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=> loc()));
-                    },
-                  )
+                  // GestureDetector(
+                  //   onTap: (){
+                  //     Navigator.push(context, MaterialPageRoute(builder: (context)=> loc()));
+                  //   },child: ,
+                  // )
                   
                   // Add more cards as needed
                 ],
